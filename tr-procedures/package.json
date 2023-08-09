@@ -1,0 +1,38 @@
+{
+  "name": "@trazit/tr-procedures",
+  "description": "Component core for procedures elements with dynamic model",
+  "license": "MIT",
+  "author": "Trazit Team",
+  "version": "0.1.0",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server --root-dir demo --node-resolve --open --watch --app-index demo/index.html"
+  },
+  "dependencies": {
+    "@alenaksu/json-viewer": "^0.3.4",
+    "@collaborne/lit-flexbox-literals": "^0.2.2",
+    "@doubletrade/lit-datatable": "^2.0.0",
+    "@google-web-components/google-chart": "^5.0.3",
+    "@material/mwc-button": "^0.25.3",
+    "@material/mwc-formfield": "^0.25.3",
+    "@material/mwc-icon-button": "^0.25.3",
+    "@material/mwc-list": "^0.25.3",
+    "@material/mwc-select": "^0.25.3",
+    "@material/mwc-textfield": "^0.25.3",
+    "@mpachnis/mp-calendar": "^3.1.1",
+    "@spectrum-web-components/card": "^0.10.11",
+    "@spectrum-web-components/split-view": "^0.4.3",
+    "@spectrum-web-components/tabs": "^0.8.1",
+    "@spectrum-web-components/tooltip": "^0.9.0",
+    "@trazit/cred-dialog": "file:.yalc/@trazit/cred-dialog",
+    "@vaadin/vaadin-grid": "^21.0.3",
+    "lit": "^2.0.2",
+    "lit-element-router": "^2.0.3",
+    "lit-vaadin-helpers": "^0.2.1"
+  },
+  "devDependencies": {
+    "@spectrum-web-components/theme": "^0.8.15",
+    "@web/dev-server": "^0.1.26"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "@trazit/my-certifications",
+  "description": "Component my certifications of trazit platform",
+  "license": "MIT",
+  "author": "Trazit Team",
+  "version": "0.0.1",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server --root-dir demo --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "@collaborne/lit-flexbox-literals": "^0.2.2",
+    "@material/mwc-icon-button": "^0.25.3",
+    "@trazit/common-core": "file:.yalc/@trazit/common-core",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@spectrum-web-components/action-menu": "^0.11.6",
+    "@spectrum-web-components/menu": "^0.9.6",
+    "@spectrum-web-components/theme": "^0.8.14",
+    "@trazit/platform-login": "file:.yalc/@trazit/platform-login",
+    "@web/dev-server": "^0.1.25"
+  }
+}

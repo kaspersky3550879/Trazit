@@ -1,0 +1,11 @@
+{
+  "dbName": "labplanet",
+  "isForTesting": false,
+  "backendUrl": "http://51.75.202.142:8888/LabPLANET-API",
+  "appAuthenticateApiUrl": "/app/AuthenticationAPIactions",
+  "apiSopUserUrl": "/app/SopUserAPIactions",
+  "frontEndSopUrl": "/app/SopUserAPIqueries",
+  "apiAnalysisUrl": "/app/CertifyAnalysisMethodAPIactions",
+  "frontEndAnalysisUrl": "/app/AnalysisMethodCertifUserAPIqueries",
+  "appProcedureListApiUrl": "/frontend/AppProcedureListAPI"
+}

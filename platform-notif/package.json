@@ -1,0 +1,24 @@
+{
+  "name": "@trazit/platform-notif",
+  "description": "Component notifications of trazit platform",
+  "license": "MIT",
+  "author": "Trazit Team",
+  "version": "0.0.1",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server --root-dir demo --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "@spectrum-web-components/accordion": "^0.4.18",
+    "@trazit/common-core": "file:.yalc/@trazit/common-core",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@material/mwc-snackbar": "^0.25.3",
+    "@spectrum-web-components/theme": "^0.8.14",
+    "@trazit/platform-login": "file:.yalc/@trazit/platform-login",
+    "@trazit/user-profile": "file:.yalc/@trazit/user-profile",
+    "@web/dev-server": "^0.1.25"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "dbName": "labplanet",
+  "isForTesting": false,
+  "backendUrl": "http://51.75.202.142:8888/LabPLANET-API",
+  "appAuthenticateApiUrl": "/app/AuthenticationAPIactions",
+  "HolidayCalendarAPIactionsUrl": "/app/HolidayCalendarAPIactions",
+  "HolidayCalendarAPIqueriesUrl": "/app/HolidayCalendarAPIqueries"
+}

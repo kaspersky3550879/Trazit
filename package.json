@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@collaborne/lit-flexbox-literals": "^0.2.2",
+    "@trazit/proc-management-home": "file:ProcManagement/proc-management-home"
+  }
+}

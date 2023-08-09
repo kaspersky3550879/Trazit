@@ -1,0 +1,14 @@
+{
+  "dbName": "labplanet",
+  "isForTesting": false,
+  "backendUrl": "http://51.75.202.142:8888/LabPLANET-API",
+  "appAuthenticateApiUrl": "/app/AuthenticationAPIactions",
+  "businessRules": {
+    "enableLockSession": true,
+    "minsLockSession": 2,
+    "enableLogoutSession": false,
+    "minsLogoutSession": 20,
+    "secondsNextTimeChecker": 5
+  },
+  "local": true
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@trazit/endpoints-list",
+  "description": "Component to display the list of endpoints (endpoint_name) grouped by API (api_name)",
+  "license": "MIT",
+  "author": "Trazit Team",
+  "version": "0.0.1",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server --root-dir demo --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "@alenaksu/json-viewer": "^0.3.4",
+    "@spectrum-web-components/split-view": "^0.4.3",
+    "@trazit/common-core": "file:.yalc/@trazit/common-core",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@spectrum-web-components/theme": "^0.8.14",
+    "@trazit/platform-login": "file:.yalc/@trazit/platform-login",
+    "@web/dev-server": "^0.1.25"
+  }
+}

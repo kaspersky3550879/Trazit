@@ -1,0 +1,27 @@
+{
+  "name": "@trazit/cred-dialog",
+  "description": "Credential dialog including user, esign, & justification-phrase",
+  "license": "MIT",
+  "author": "Trazit Team",
+  "version": "0.0.2",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "start": "web-dev-server --root-dir demo --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "@collaborne/lit-flexbox-literals": "^0.2.2",
+    "@material/mwc-textfield": "^0.25.3",
+    "@spectrum-web-components/button": "^0.15.0",
+    "@trazit/common-core": "file:.yalc/@trazit/common-core",
+    "@trazit/platform-login": "file:.yalc/@trazit/platform-login",
+    "@trazit/tr-dialog": "file:.yalc/@trazit/tr-dialog",
+    "@vaadin/vaadin-combo-box": "^21.0.5",
+    "lit": "^2.0.2",
+    "lit-element-router": "^2.0.3"
+  },
+  "devDependencies": {
+    "@spectrum-web-components/theme": "^0.8.14",
+    "@web/dev-server": "^0.1.25"
+  }
+}
